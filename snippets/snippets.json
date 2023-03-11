@@ -1,0 +1,31 @@
+{
+    "console.log": {
+		"scope": "php,html",
+		"prefix": "xb",
+		"body": [
+		"<?php",
+		"/**",
+		"* your file short description.",
+		"*",
+		"* PHP version 7.1",
+		"*",
+		"* course: INFT1206",
+		"* @author your name <your email>",
+		"* @version 1.0 (month, day, year)",
+		"*/",
+		"\\$title = \"your page title here\";",
+		"\\$file = \"your file name here\";",
+		"\\$description = \"your description here\";",
+		"\\$date = \"your date here\";",
+		"\\$banner = \"your page banner\";",
+		"include(\"./header.php\");",
+		"?>",
+	
+			"${1: type your HTML or php body here}",
+		"<?php",
+		"include(\"./footer.php\");",
+		"?>"
+		],
+		"description": "Boiler plate for the php labs in college."
+	}
+}

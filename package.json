@@ -1,0 +1,20 @@
+{
+  "name": "durhamcollegephpsupport",
+  "displayName": "durhamcollegephpsupport",
+  "description": "php snippts for durham college inft1206 couse ",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.76.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "php,html",
+        "path": "./snippets/snippets.json"
+      }
+    ]
+  }
+}
